@@ -1,0 +1,30 @@
+.intro {
+  color: white;
+  font-family: "Inter", sans-serif;
+  width: 984px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: flex-start;
+  justify-self: center;
+}
+
+@media screen and (max-width:1239px) {
+
+  .intro {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+
+  .intro {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .intro {
+    width: 288px;
+  }
+}

@@ -1,0 +1,27 @@
+.place__text {
+  width: 484px;
+  margin: 26px 0 0 0;
+}
+
+.place__text:first-child {
+  margin: 0;
+}
+
+@media screen and (max-width:1239px) {
+  .place__text {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .place__text {
+    margin-top: 25px;
+    width: 352px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .place__text {
+    width: 288px;
+  }
+}

@@ -1,0 +1,19 @@
+.cover__description {
+  width: 360px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  z-index: 1;
+  margin: 32px 0 0 0;
+  font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width:767px) {
+
+  .cover__description {
+    width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 16px;
+  }
+}

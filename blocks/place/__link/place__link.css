@@ -1,0 +1,15 @@
+.place__link {
+  margin: 0;
+  align-self: end;
+}
+
+.place__link:hover {
+  opacity: 80%;
+  transition: .5s;
+}
+
+@media screen and (max-width:767px) {
+  .place__link {
+    margin-left: 16px;
+  }
+}

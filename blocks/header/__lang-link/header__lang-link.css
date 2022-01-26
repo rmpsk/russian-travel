@@ -1,0 +1,20 @@
+.header__lang-link {
+  display: flex;
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:1023px) {
+
+  .header__lang-link {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .header__lang-link {
+   
+  }
+}
