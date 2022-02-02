@@ -7,8 +7,12 @@
   font-size: 24px;
 }
 
-.header__links:first-child {
+.header__links {
   margin-right: 16px;
+}
+
+.header__links:last-child {
+  margin-right: 0px;
 }
 
 .header__links:hover {

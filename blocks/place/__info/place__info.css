@@ -4,3 +4,7 @@
   font-size: 18px;
 }
 
+.place__info:hover {
+  opacity: 80%;
+  transition: .5s;
+}
