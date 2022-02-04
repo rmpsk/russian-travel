@@ -9,7 +9,7 @@
   flex-direction: column;
   color: white;
   background-image: url(../../../images/cover__image.jpg);
-  background-size: 100%;
+  background-size: cover;
   position: relative;
 }
 
