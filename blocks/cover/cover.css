@@ -1,5 +1,25 @@
 /* Дорогой ревьювер, извини что не могу сразу исправить, я сейчас на работе с собой только телефон, правлю прямо на нем в гитхабе, увидеть что страниа прокручивается горизонтально не мог*/
 
 .cover {
-    width: auto;
+  width: 1184px;
+}
+
+@media screen and (max-width:1239px) {
+
+  .cover {
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+
+  .cover {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .cover {
+    width: 320px;
+  }
 }
